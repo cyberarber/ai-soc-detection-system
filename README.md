@@ -24,3 +24,11 @@ Advanced Security Operations Center (SOC) detection system utilizing machine lea
 - False Positive Reduction: 80%
 
 ## 🏗️ Architecture
+
+```mermaid
+graph LR
+    A[Data Collection<br/>Sysmon/Winlogbeat] --> B[ML Engine<br/>Anomaly Detection]
+    B --> C[AI Agents<br/>Investigation]
+    C --> D[Response Agent<br/>Automated Actions]
+    B --> E[Risk Scoring]
+    E --> F[Alert Generation]
