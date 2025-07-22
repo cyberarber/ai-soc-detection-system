@@ -1,0 +1,32 @@
+# Security - NEVER upload these
+*.log
+*.pcap
+*password*
+*secret*
+*key*
+.env
+config.ini
+
+# IP addresses and internal info
+*192.168*
+*10.0*
+*172.16*
+
+# Python
+__pycache__/
+*.pyc
+.Python
+venv/
+soc-ai-env/
+
+# Data files (might contain sensitive info)
+*.csv
+security_detections.csv
+enhanced_training_data.csv
+
+# Model files (can be large)
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
