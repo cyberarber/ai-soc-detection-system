@@ -32,11 +32,4 @@ graph LR
     C --> D[Response Agent<br/>Automated Actions]
     B --> E[Risk Scoring]
     E --> F[Alert Generation]
-# Add the screenshots folder
-git add screenshots/
-
-# Commit with descriptive message
-git commit -m "Added portfolio screenshots showing AI detection, agents, and dashboard"
-
-# Push to GitHub
-git push
+```
