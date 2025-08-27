@@ -1,0 +1,21 @@
+title: Application Shimming Database Installation
+id: SOC-WIN-SHIM-0001
+status: production
+description: Detects sdbinst.exe usage which can establish persistence
+references:
+    - https://attack.mitre.org/techniques/T1546/011/
+author: cyberarber
+date: 2025-08-26
+tags:
+    - attack.persistence
+    - attack.t1546.011
+logsource:
+    product: windows
+    service: sysmon
+detection:
+    selection:
+        Image|endswith: '\sdbinst.exe'
+    condition: selection
+falsepositives:
+    - Legitimate software compatibility fixes by Windows
+level: medium
