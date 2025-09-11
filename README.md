@@ -4,17 +4,17 @@
 [![GPT-4](https://img.shields.io/badge/AI-GPT--4-green)](https://openai.com)
 [![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-orange)](https://wazuh.com)
 
-## 🚀 Overview
+## Overview
 ML-powered SOC platform with autonomous threat detection. Detected real attacks from Kali Linux using GPT-4 analysis.
 
-## 📊 Proven Results
+## Proven Results
 - ✅ 7 attack types detected
 - ✅ Nmap scanning identified
 - ✅ DNS tunneling caught
 - ✅ Protocol mismatches found
 - ✅ 100+ events analyzed by AI
 
-## 🏗️ Architecture
+## Architecture
 Kali Linux → Ubuntu Target
 ↓            ↓
 Attack Scripts   Wazuh + Elasticsearch
