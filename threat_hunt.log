@@ -1,0 +1,25 @@
+============================================================
+🛡️  WAZUH AI-POWERED THREAT HUNTER
+============================================================
+[+] Connected to Elasticsearch - Found 20 Wazuh indices:
+    - wazuh-alerts-4.x-2025.09.02
+    - wazuh-alerts-4.x-2025.08.24
+    - wazuh-alerts-4.x-2025.09.06
+    - wazuh-alerts-4.x-2025.08.19
+    - wazuh-alerts-4.x-2025.08.23
+
+[*] Starting AI-powered threat hunt...
+[*] Trying index: wazuh-alerts-4.x-* with field: @timestamp
+[+] Found 157 events!
+[*] Processing 50 events for AI analysis...
+[*] Sending to GPT-4 for threat analysis...
+
+============================================================
+🔍 AI THREAT ANALYSIS RESULTS
+============================================================
+{
+  "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************CmwA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+}
+
+[*] Threat hunt complete!
+============================================================

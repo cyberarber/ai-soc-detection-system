@@ -1,0 +1,22 @@
+title: Application Shimming via Sdbinst
+status: production
+description: Detects potential persistence via application compatibility shims
+references:
+  - https://attack.mitre.org/techniques/T1546/011/
+tags:
+  - attack.persistence
+  - attack.t1546.011
+logsource:
+  product: windows
+  service: sysmon
+detection:
+  selection:
+    EventID: 1
+    Image|endswith: '\sdbinst.exe'
+    CommandLine|contains:
+      - '-q'
+      - '-u'
+  condition: selection
+falsepositives:
+  - Legitimate software installations
+level: medium

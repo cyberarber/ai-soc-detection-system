@@ -1,0 +1,11 @@
+<group name="suspicious_processes">
+  <rule id="100001" level="12">
+    <if_group>sysmon_event1</if_group>
+    <field name="win.eventdata.parentImage">\\svchost.exe</field>
+    <field name="win.eventdata.image">calc.exe|notepad.exe|mspaint.exe</field>
+    <description>Suspicious process launched by Task Scheduler</description>
+    <mitre>
+      <id>T1053.005</id>
+    </mitre>
+  </rule>
+</group>

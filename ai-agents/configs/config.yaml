@@ -1,0 +1,8 @@
+openai:
+  api_key: ${OPENAI_API_KEY}
+  model: gpt-4o-mini
+  max_tokens: 500
+
+thresholds:
+  auto_action: 0.9
+  manual_review: 0.7

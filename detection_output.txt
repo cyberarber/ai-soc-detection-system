@@ -1,0 +1,24 @@
+Script started on 2025-09-10 22:24:13-04:00 [COMMAND="python detect_all_ssh.py" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="210" LINES="47"]
+
+Searching for SSH-related events...
+
+Found 39 SSH-related events!
+
+
+Level 7 alerts:
+  [20x] Host-based anomaly detection event (rootcheck).
+
+Level 4 alerts:
+  [1x] Unknown
+
+Level 3 alerts:
+  [6x] PAM: Login session closed.
+  [4x] PAM: Login session opened.
+  [4x] Successful sudo to ROOT executed.
+  [2x] Wazuh agent started.
+  [2x] Wazuh agent stopped.
+
+⚠️  POSSIBLE BRUTE FORCE ATTACK DETECTED!
+   39 SSH events in last 10 minutes
+
+Script done on 2025-09-10 22:24:14-04:00 [COMMAND_EXIT_CODE="0"]

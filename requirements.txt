@@ -1,0 +1,7 @@
+elasticsearch==7.17.14
+openai>=1.0.0
+python-dotenv
+requests
+flask
+flask-socketio
+pandas
