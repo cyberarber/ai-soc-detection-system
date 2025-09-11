@@ -29,4 +29,5 @@ Threat Detection & Response
 - `kali_attack_detector.py` - Main detection script
 
 ## Author
-**CyberArber** - [LinkedIn](https://linkedin.com/in/arberkycyku)
+**Arber Kycyku** - [LinkedIn](https://linkedin.com/in/arberkycyku)
+**E-mail** ak@arb3r.com
